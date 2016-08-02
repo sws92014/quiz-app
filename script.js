@@ -37,9 +37,9 @@ $(document).ready(function() {
        } else if (currentQuestion == 9){
               document.getElementById("wordImg").src = "images/gif.png";
        } else if (currentQuestion == 10){
-              document.getElementById("wordImg").src = "images/jpeg.png";
-       } else if (currentQuestion == 11){
               document.getElementById("wordImg").src = "images/exe.png";
+       } else if (currentQuestion == 11){
+              document.getElementById("wordImg").src = "images/jpg.png";
        };
     }
 
@@ -142,7 +142,7 @@ $(document).ready(function() {
 
 //CONTINUE BUTTON EVENT//
     $("#resultDiv").on("click", "#continue", function (event) {
-        if (currentQuestion < 5) {
+        if (currentQuestion < 11) {
             currentQuestion++;
             loadQuestion();
             imgChange();
