@@ -1,0 +1,75 @@
+<HTML>
+	<head>
+      <meta charset="UTF-8">
+      <link rel="stylesheet" href="styles.css">
+      <title>Are You Pronouncing These Words Correctly?</title>
+	</head>
+	<body id="body">
+		<div class="container">
+			
+		<!-- Quiz Start Screen -->
+			<div id="introDiv" class="introDiv">	
+				<img src="images/title_image.png" class="logo">
+					<a href="" id="enter" class="nav">
+						<img src="images/take_quiz_bttn.png">
+					</a>
+			</div>
+		
+		<!-- Question Screen -->
+			<div id="questionDiv" class="mainDiv" style="display: none;">
+				<img "images/meme.png" id="wordImg" width="625" height="300">
+				<div id="questionArea">
+					<span class="question">Filler</span></br>
+					
+					<div id="answerSelect">
+						<input type="radio" name="option" class="option" value="0"><span class="answer">Filler</span><br>
+						<input type="radio" name="option" class="option" value="1"><span class="answer">Filler</span><br>
+						<input type="radio" name="option" class="option" value="2"><span class="answer">Filler</span><br>
+						<input type="radio" name="option" class="option" value="3"><span class="answer">Filler</span><br>
+					</div>
+				</div>
+				<a href="" id="submit" class="nav">
+					<img src="images/submit_bttn.png">
+				</a>
+			</div>
+
+		<!-- Result Screen -->
+			<div id="resultDiv" class="mainDiv" style="display: none;">
+				<div class="resultPositive" style="display: none;">
+					<img class="result" src="images/correct.png">
+				</div>
+
+				<div class="resultNegative" style="display: none;">
+					<img class="result" src="images/incorrect.png">
+				</div>
+
+				<span id="explain">
+					It’s “meem.” Nothing fancy. Just one little syllable.</p>
+				</span>
+
+				<a href="" id="continue" class="nav">
+					<img src="images/continue_bttn.png">
+				</a>
+			</div>
+
+		<!-- End Screen -->
+			<div id="endDiv" class="mainDiv" style="display: none;">
+				<div class="resultEnd">
+					<img class="result" src="images/results_image.png">
+				</div>
+
+				<span id="result">
+					Filler
+				</span>
+			
+				<a href="" id="retry" class="nav">
+					<img src="images/retry_bttn.png">
+				</a>
+			
+			</div>
+		
+		</div>
+	</body>
+ 	<script src="https://code.jquery.com/jquery.min.js"></script>
+ 	<script src="script.js"></script>   
+</HTML>

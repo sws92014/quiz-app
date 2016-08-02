@@ -1,0 +1,126 @@
+body {
+	background-color: 00374D;
+}
+
+/*Intro Screen*/
+
+.introDiv {
+	margin: 0 auto;
+	padding-top: 100px;
+	width: 625px;
+	text-align: center;
+}
+
+.logo{
+	margin-top: 20px;
+	width: 625px;
+	display: inline-block;
+
+
+.nav {
+    margin: 0 auto;
+    margin-top: 40px;
+    text-align: center;
+}
+
+
+/*Question Screen*/
+
+#questionDiv {
+	margin: 0 auto;
+	padding-top: 100px;
+	width: 625px;
+	text-align: center;
+}
+
+.mainDiv {
+	margin: 0 auto;
+	margin-right: auto;
+	margin-left: auto; 
+	text-align: center;
+}
+
+#wordImg{
+	max-width: 625px;
+	margin-top: 100px;
+	display: inline-block;
+	text-align: center;
+}
+
+#wordImg{
+	margin-top: 100px;
+	text-align: center;
+}
+
+.question {
+	margin-top: 100px;
+	font-family: Tahoma;
+	font-size: 1.5em;
+	color: #E0E1E2;
+	display: block;
+}
+
+
+#answerSelect{
+	margin: 0 auto;
+	text-align: center;
+	margin-top: 100px;
+	color: #E0E1E2;
+}
+
+.option{
+	margin-top: 50px;
+}
+
+.answer{
+	margin: 0 auto;
+	font-family: Tahoma;
+	text-align: center;
+	color: #E0E1E2;
+}
+
+
+/*Results Screen*/
+
+.resultPositive{
+	width: 100%;
+	padding-top: 8em;
+}
+
+.resultNegative{
+	width: 100%;
+	padding-top: 8em;
+}
+
+.result{
+	width: 100%;
+}
+
+#explain{
+	font-family: Tahoma;
+	font-size: 1.5em;
+	text-align: center;
+	color: #E0E1E2;
+	display: block;
+	margin-top: 100px;
+}
+
+
+/*End Screen*/
+
+.resultEnd{
+	width: 100%;
+	padding-top: 8em;
+}
+
+#result{
+	font-family: Tahoma;
+	font-size: 1.5em;
+	text-align: center;
+	color: #E0E1E2;
+	display: block;
+	margin-top: 100px;
+}
+
+
+
