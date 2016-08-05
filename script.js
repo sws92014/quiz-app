@@ -37,6 +37,8 @@ $(document).ready(function() {
 //INTRO PAGE FADES AND QUESTION APPEARS FUNCTION//
     function introFadesToQuestions() {
         $("#introDiv").fadeOut();
+        $('.designer').fadeOut();
+        $('p').fadeOut();
         $('#questionDiv').fadeIn();
     }
 
