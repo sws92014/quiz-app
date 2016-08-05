@@ -7,15 +7,20 @@ body {
 .introDiv {
 	margin: 0 auto;
 	padding-top: 100px;
-	width: 625px;
 	text-align: center;
+	width: 625px;
+
+}
+
+img {
+	margin-top: 50px;
 }
 
 .logo{
+	display: inline-block;
 	margin-top: 20px;
 	width: 625px;
-	display: inline-block;
-
+}
 
 .nav {
     margin: 0 auto;
@@ -28,98 +33,107 @@ body {
 
 #questionDiv {
 	margin: 0 auto;
-	padding-top: 100px;
-	width: 625px;
+	padding-top: 5px;
 	text-align: center;
+	width: 625px;
 }
 
 .mainDiv {
 	margin: 0 auto;
-	margin-right: auto;
 	margin-left: auto; 
+	margin-right: auto;
 	text-align: center;
 }
 
 #wordImg{
-	max-width: 625px;
-	margin-top: 100px;
 	display: inline-block;
+	margin-top: 5px;
+	max-width: 625px;
 	text-align: center;
 }
 
 #wordImg{
-	margin-top: 100px;
+	margin-top: 50px;
 	text-align: center;
 }
 
 .question {
-	margin-top: 100px;
-	font-family: Tahoma;
-	font-size: 1.5em;
-	color: #E0E1E2;
+	color: #74A578;
 	display: block;
+	font-family: Raleway;
+	font-size: 1.5em;
+	margin-top: 25px;
 }
 
 
 #answerSelect{
-	margin: 0 auto;
-	text-align: center;
-	margin-top: 100px;
 	color: #E0E1E2;
+	margin: 0 auto;
+	margin-left: 265px;
+	margin-top: 25px;
+	text-align: left;
 }
 
 .option{
-	margin-top: 50px;
+	margin-top: 25px;
 }
 
 .answer{
-	margin: 0 auto;
-	font-family: Tahoma;
-	text-align: center;
 	color: #E0E1E2;
+	font-family: Raleway;
+	margin: 0 auto;
+	text-align: center;
 }
 
 
 /*Results Screen*/
 
 .resultPositive{
-	width: 100%;
+	margin: 0 auto;
 	padding-top: 8em;
+	text-align: center;
+	width: 625px;
 }
 
 .resultNegative{
-	width: 100%;
+	margin: 0 auto;
 	padding-top: 8em;
+	text-align: center;
+	width: 625px;
 }
 
 .result{
-	width: 100%;
+	margin: 0 auto;
+	text-align: center;
+	width: 625px;
 }
 
 #explain{
-	font-family: Tahoma;
-	font-size: 1.5em;
-	text-align: center;
 	color: #E0E1E2;
 	display: block;
+	font-family: Raleway;
+	font-size: 1.5em;
 	margin-top: 100px;
+	text-align: center;
 }
 
 
 /*End Screen*/
 
 .resultEnd{
-	width: 100%;
+	width: 625px;
+	margin: 0 auto;
 	padding-top: 8em;
+	text-align: center;
 }
 
 #result{
-	font-family: Tahoma;
-	font-size: 1.5em;
-	text-align: center;
 	color: #E0E1E2;
 	display: block;
+	font-family: Raleway;
+	font-size: 1.5em;
 	margin-top: 100px;
+	text-align: center;
 }
 
 
