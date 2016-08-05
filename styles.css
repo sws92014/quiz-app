@@ -28,6 +28,19 @@ img {
     text-align: center;
 }
 
+p {
+    color: #E0E1E2;
+	font-family: Raleway;
+	font-size: .75em;
+	margin-top: 200px;
+	text-align: center;
+}
+
+.designer {
+	margin: 0 auto;
+	margin-top: -50px;
+	text-align: center;
+}
 
 /*Question Screen*/
 
