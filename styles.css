@@ -16,7 +16,7 @@ img {
 	margin-top: 50px;
 }
 
-.logo{
+.logo {
 	display: inline-block;
 	margin-top: 20px;
 	width: 625px;
@@ -45,14 +45,14 @@ img {
 	text-align: center;
 }
 
-#wordImg{
+#wordImg {
 	display: inline-block;
 	margin-top: 5px;
 	max-width: 625px;
 	text-align: center;
 }
 
-#wordImg{
+#wordImg {
 	margin-top: 50px;
 	text-align: center;
 }
@@ -66,7 +66,7 @@ img {
 }
 
 
-#answerSelect{
+#answerSelect {
 	color: #E0E1E2;
 	margin: 0 auto;
 	margin-left: 265px;
@@ -74,11 +74,11 @@ img {
 	text-align: left;
 }
 
-.option{
+.option {
 	margin-top: 25px;
 }
 
-.answer{
+.answer {
 	color: #E0E1E2;
 	font-family: Raleway;
 	margin: 0 auto;
@@ -88,27 +88,27 @@ img {
 
 /*Results Screen*/
 
-.resultPositive{
+.resultPositive {
 	margin: 0 auto;
 	padding-top: 8em;
 	text-align: center;
 	width: 625px;
 }
 
-.resultNegative{
+.resultNegative {
 	margin: 0 auto;
 	padding-top: 8em;
 	text-align: center;
 	width: 625px;
 }
 
-.result{
+.result {
 	margin: 0 auto;
 	text-align: center;
 	width: 625px;
 }
 
-#explain{
+#explain {
 	color: #E0E1E2;
 	display: block;
 	font-family: Raleway;
@@ -120,18 +120,18 @@ img {
 
 /*End Screen*/
 
-.resultEnd{
+.resultEnd {
 	width: 625px;
 	margin: 0 auto;
 	padding-top: 8em;
 	text-align: center;
 }
 
-#result{
-	color: #E0E1E2;
+#result {
+	color: #74A578;
 	display: block;
 	font-family: Raleway;
-	font-size: 1.5em;
+	font-size: 3em;
 	margin-top: 100px;
 	text-align: center;
 }
