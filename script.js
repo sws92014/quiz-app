@@ -38,7 +38,7 @@ $(document).ready(function() {
     function introFadesToQuestions() {
         $("#introDiv").fadeOut();
         $('.designer').fadeOut();
-        $('p').fadeOut();s
+        $('p').fadeOut();
         $('#questionDiv').fadeIn();
     }
 
