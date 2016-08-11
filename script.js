@@ -23,7 +23,7 @@ $(document).ready(function() {
 
 
 //CONTINUE BUTTON EVENT//
-    $("#resultDiv").on("click", "#continue", function (event) {
+    $("#continue").on("click", function (event) {
         event.preventDefault();
         goToNextScreen();
     });
@@ -36,10 +36,9 @@ $(document).ready(function() {
 
 //INTRO PAGE FADES AND QUESTION APPEARS FUNCTION//
     function introFadesToQuestions() {
-        $("#introDiv").fadeOut();
-        $('.designer').fadeOut();
-        $('p').fadeOut();
-        $('#questionDiv').fadeIn();
+        $('#introDiv, .designer, p').fadeOut(function(){
+            $('#questionDiv').fadeIn();
+        })
     }
 
 //IMAGE CHANGE FUNCTION//
@@ -163,21 +162,27 @@ $(document).ready(function() {
 
 //GO TO NEXT SCREEN/QUESTION FUNCTION//
     function goToNextScreen() {
+        console.log("go to next screen working")
         if (currentQuestion < 11) {
             currentQuestion++;
             loadQuestion();
             imgChange();
-            $('#resultDiv').fadeOut();
-            $('.resultNegative').fadeOut();
-            $('.resultPositive').fadeOut();
-            $('#questionDiv').fadeIn();
+            console.log("fading out")
+            $('#resultDiv').fadeOut( function(){
+                $('.resultNegative, .resultPositive').hide();
+                $('#questionDiv').fadeIn();
+                console.log("its working")
+            });
+
+
+
         }else{
-            $('#questionDiv').fadeOut();
-            $('#resultDiv').fadeOut();
-            $('.resultNegative').fadeOut();
-            $('.resultPositive').fadeOut();
-            $('#endDiv').slideDown();
-            $("#result").html("You correctly answered " +numberCorrect+ " out of 12");
+            $('#questionDiv, #questionDiv, #resultDiv').fadeOut(function(){
+                $('.resultNegative, .resultPositive').hide();
+                $('#endDiv').slideDown();
+                $("#result").html("You correctly answered " +numberCorrect+ " out of 12");
+            });
+            
         };
     }
 
@@ -204,16 +209,20 @@ $(document).ready(function() {
         }else if (answer == questions[currentQuestion].correct){
                 console.log("Correct!");
                 numberCorrect++;
-                $('#questionDiv').fadeOut();
-                $('#resultDiv').fadeIn();
-                $('.resultPositive').fadeIn();
-                $("#explain").html("<p>"+questions[currentQuestion].fact+"</p>");
+                $('#questionDiv').fadeOut(function(){
+                    $('#resultDiv').fadeIn();
+                    $('.resultPositive').fadeIn();
+                    $("#explain").html("<p>"+questions[currentQuestion].fact+"</p>"); 
+                });
+
         }else{
                 console.log("Wrong");
-                $('#questionDiv').fadeOut();
-                $('#resultDiv').fadeIn();
-                $('.resultNegative').fadeIn();
-                $("#explain").html("<p>"+questions[currentQuestion].fact+"</p>");
+                $('#questionDiv').fadeOut(function(){
+                    $('#resultDiv').fadeIn();
+                    $('.resultNegative').fadeIn();
+                    $("#explain").html("<p>"+questions[currentQuestion].fact+"</p>"); 
+                });
+
         };
     }
     
